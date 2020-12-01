@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    background-color: #454545;
+    color: white;
+    width: 20em;
+    height: 30em;
+    padding: 2em 1.5em;
+    border-top-left-radius: 90% 42px;
+    border-top-right-radius: 90% 42px;
+    border-bottom-left-radius: 10% 24px;
+    border-bottom-right-radius: 10% 24px;
+}
+
+.screen {
+    background-color: #d6dbd6;
+    width: 17em;
+    height: 5em;
+    color: black;
+    border-radius: 4px;
+}
+
+.screen span {
+    font-size: 0.4em;
+    font-weight: bold;
+    margin-left: 2em;
+}
+
+.screen input {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    font-size: 4.5em;
+    font-family: monospace;
+    text-align: right;
+    width: 100%;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1em;
+}
+
+.brand .solar-panel .panel {
+    display: inline-flex;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.brand .solar-panel p{
+    font-size: 0.5em;
+    margin: 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.brand .solar-panel .panel div{
+    background-color: #9e9e9e;
+    width: 1.5em;
+    height: 2.2em;
+    border: 1px solid #a6a8a6 
+}
+
+.brand .name {
+    padding-left: 0.6em;
+}
+
+.brand .name h3 {
+    font-size: 1em;
+    margin: 0.5em 0px 0px 0px;
+    display: inline-block;
+    font-weight: 100;
+}
+
+.brand .name span {
+    font-size: 0.5em;
+    text-align: right;
+}
+
+.brand .name p {
+    margin: 0px;
+    font-size: 0.3em;
+    text-transform: uppercase;
+}
+
+.operations {
+    display: flex;
+}
+
+.operations div {
+    width: max-content;
+}
+
+.switch {
+    text-align: right;
+    margin-right: 0.35em;
+}
+
+.switch button {
+    font-size: 0.6em;
+}
+
+button {
+    width: 3.25em;
+    margin: 0.25em;
+    padding: 0px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+button.num {
+    background-color: #333333;
+    height: 2.5em;
+    border-radius: 4px;
+}
+
+button.round {
+    border-radius: 1em;
+    height: 2em;
+    background-color: rgb(200, 200, 200);
+}
+
+button.big.round {
+    height: 4em;
+}
+
+button.green {
+    background-color: rgb(46, 228, 152);
+}
+
