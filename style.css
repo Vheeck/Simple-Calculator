@@ -13,14 +13,15 @@ body {
     height: 100vh;
     align-items: center;
     justify-content: center;
+  
 }
 
 .calculator {
     background-color: #454545;
     color: white;
-    width: 20em;
-    height: 30em;
-    padding: 2em 1.5em;
+    width: 19em;
+    height: 25em;
+    padding: 2em 1em 1em 1em;
     border-top-left-radius: 90% 42px;
     border-top-right-radius: 90% 42px;
     border-bottom-left-radius: 10% 24px;
@@ -113,7 +114,7 @@ body {
 }
 
 .switch button {
-    font-size: 0.6em;
+    font-size: 0.85em;
 }
 
 button {
@@ -123,6 +124,7 @@ button {
     border: none;
     outline: none;
     color: white;
+    font-weight: bold;
 }
 
 button.num {
@@ -144,4 +146,13 @@ button.big.round {
 button.green {
     background-color: rgb(46, 228, 152);
 }
+div.panel{
+    margin-top:3%;
+}
+div.numbers{
+    margin-bottom:0%;
+}
 
+.controls {
+    margin-top: -1.4em;
+}
